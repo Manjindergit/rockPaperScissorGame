@@ -32,6 +32,6 @@ console.log(humChoice);
 }
 
 function display(result) {
-  const displayDivisor = document.querySelector('.resultP');
+  const displayDivisor = document.querySelector('.resultArea');
   displayDivisor.textContent = result;
 }
