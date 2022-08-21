@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="myScript.js"></script>
 </head>
 <body>
-    <button style="height: 10px; " onclick="compare()"></button>
+    <div class="container">
+    <h1>Rock Paper and Scissor</h1>
+    <div class="area">
+        
+        
+        <button id="rock" value="rock" onclick="compare(this.value)">Rock</button>
+        <button id="paper" value="paper" onclick="compare(this.value)">Paper</button>
+        <button id="scissor" value="scissor" onclick="compare(this.value)">Scissor</button>
+    </div>
+    <div class="result">
+        
+    </div>
+
+    </div>
+</div>
+    
 </body>
 </html>

@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(217, 220, 220);
+    
+}
+
+.area{
+    padding-top: 5vh;
+    padding-left: 22vh;
+    padding-right: 22vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
+
+.resultP{
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: firebrick;
+    font-size: 15vh;
+}
+
+#rock{
+    background-image: url(media/rock.jpg);
+    width: 100%;
+} 
+
+#paper{
+    background-image: url(media/paper.jpg);
+} 
+
+#scissor{
+    background-image: url(media/rock.jpg)";
+} 
+
